@@ -1,4 +1,5 @@
-#   Nome: Igor Assis Baroni
+#   Nome: Kayque Siqueira Deomedesse
+#   Curso: Fatec Desenvolvimento de Sistemas 
 
 
 # -*- coding: utf-8 -*-
