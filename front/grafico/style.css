@@ -118,8 +118,35 @@ header {
 
 .table-body{
   display: flex;
-  justify-content: space-between;
-  padding: 15px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.grafico-container{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #e8e8e8;
+  padding: 20px 20px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grafico-container .grafico iframe{
+  height: 220px;
+  width: 400px;
+}
+
+.grafico-container p{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.grafico-container .medicoes{
+  display: flex;
 }
 
 .table-header input {
@@ -170,6 +197,10 @@ header {
 
 .sidebar-mobile a > svg {
   color: #444;
+}
+
+.link-icon:hover{
+  color: #941611;
 }
 
 @media screen and (min-width: 768px) {
